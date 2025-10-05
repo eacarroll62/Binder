@@ -1,0 +1,85 @@
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+*.swp
+*.lock
+._*
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
+*.xcuserdatad/
+xcuserdata/
+
+# Keep shared schemes; ignore only user data
+# If you want to ignore workspace settings too, uncomment the next line:
+# project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+
+# Swift / Swift Package Manager
+.swiftpm/
+.build/
+Packages/
+# If you prefer to keep .swiftpm metadata, comment the line above and uncomment the one below:
+# .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# dSYM
+*.dSYM
+*.dSYM.zip
+
+# Logs
+*.log
+
+# CocoaPods
+Pods/
+# Keep Podfile and Podfile.lock tracked
+!Podfile
+!Podfile.lock
+
+# Carthage
+Carthage/Build/
+# Keep Cartfile and Cartfile.resolved tracked
+!Cartfile
+!Cartfile.resolved
+
+# Accio
+Dependencies/
+.accio/
+
+# Mint
+Mint/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# SwiftPM/Xcode integration noise (older versions)
+.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+
+# Credentials / Signing (do not commit secrets)
+*.p12
+*.p8
+*.cer
+*.mobileprovision
+
+# JetBrains (AppCode, etc.)
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+
+# Simulator device support (if ever exported)
+DeviceSupport/
